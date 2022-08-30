@@ -1,0 +1,40 @@
+.sort_by_room{
+    padding: 20px 0;
+}
+img{
+    max-width: 100%;
+}
+.sort_by_room{
+    background-color:#70a3a3;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.btn{
+text-align: center;    
+align-items: center;
+margin-left: 75px;
+}
+.mainpage{
+    background-color:#70a3a3;
+}
+#carouselExampleControls{
+    padding: 15px;
+    padding-bottom: 40px;
+    
+}
+.searchicon{
+    padding: 45px;
+
+}
+.btn-outline-success{
+    margin-left: -45px;
+}
+.image{
+    background-size: cover;
+}
+
+
+

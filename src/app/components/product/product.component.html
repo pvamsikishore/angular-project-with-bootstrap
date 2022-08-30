@@ -1,0 +1,20 @@
+<section class="product">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-3"*ngFor="let prod of productArray">
+                <div class="box">
+                    <div class="product_image w-100">
+                        <img  class = "image"src="{{prod.img}}" alt="img1" >
+                    </div>
+                    <div class="content">
+                        <h4>{{prod.amt}}</h4>
+                        <!-- <button title="minus" type ="button" class="btn"(click)="dec(prod)"><i class="fa fa-minus"></i></button> -->
+                        <b>Qty: </b><span>{{prod.qnt}}</span>
+                        <!-- <button title="plus" type ="button" class="btn"(click)="inc(prod)"><i class="fa fa-plus"></i></button> -->
+                    </div>
+                    <button type="button" class="cart_btn"(click)="inc(prod)" >Add To Cart</button>
+                </div>
+            </div>
+        </div>    
+    </div>
+</section>    
